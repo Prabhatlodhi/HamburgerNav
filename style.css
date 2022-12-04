@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+    border: 1px solid red;
+    padding: 1rem;
+}
+
+.btnBread{
+    display: none;
+   
+}
+
+@media screen and (max-width:830px) {
+
+    .listitem{
+        display: block;
+    }
+
+    .btnBread{
+        display: inline-block;
+        padding: 10px;
+        position: absolute;
+        right: 20px;
+    }
+
+    .hide{
+        display: none;
+    }
+
+     
+}
